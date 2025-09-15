@@ -1,0 +1,67 @@
+# 🛡️ AWS監査レポート自動生成ツール Qiita用
+
+# ✨ これは何？
+
+- AWSアカウントに対して IAM/S3/CloudTrail 構成のリスクをチェックして
+    
+    Markdownレポートとして出力する**簡易監査ツール**です
+    
+- オプションで OpenAI API（ChatGPT）を使い、**読みやすい短評付きレポート**に自動整形も可能
+
+---
+
+## ✅ 特徴
+
+| 特徴 | 内容 |
+| --- | --- |
+| 🪶 軽量 | bashスクリプト1本、依存も `aws` / `jq` 程度 |
+| 📄 Markdown出力 | レポートはそのままSlack投稿やPDF変換にも使える |
+| 🤖 ChatGPT連携 | Markdownに短評・Top5・用語整形などを自動追加可能（任意） |
+| 🔐 安全配布 | APIキーは Secrets Manager から取得し、履歴やログに残さない |
+
+---
+
+## 🔧 手順
+
+### GPTコメントありの場合Secrets Manager に APIキーを保存
+
+```bash
+aws secretsmanager create-secret \
+  --name openai/prod/key \
+  --secret-string "sk-xxxxxxxxxxxxxxxxxxxx" \
+  --region ap-northeast-1
+
+```
+
+> ✅ openai/prod/key という名前で保存します（変更可）
+> 
+
+### 実行（GPTコメントなし）
+
+```bash
+./checkRisk.sh
+```
+
+---
+
+### 実行（GPTコメントあり）
+
+```bash
+export POLISH_WITH_OPENAI=1
+export OPENAI_SECRET_NAME=openai/prod/key
+./checkRisk.sh
+```
+
+ GPTのモデルを変えたい場合 下記を追加（デフォルトは4.1mini）
+
+```jsx
+export OPENAI_MODEL=gpt-4.1
+```
+
+## 🔐 なぜ Secrets Manager 経由にするのか？
+
+| 方法 | 安全性 | 備考 |
+| --- | --- | --- |
+| `export OPENAI_API_KEY=...` | ⚠️ 低 | 履歴や`ps`コマンドから漏れる危険あり |
+| `.env`ファイル | ⚠️ 中 | `.gitignore`が必要、漏洩リスクあり |
+| **Secrets Manager** | ✅ 高 | IAMポリシー制御＋ログに残らない |
