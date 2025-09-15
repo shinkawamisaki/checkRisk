@@ -23,7 +23,7 @@
 
 ## 🔧 手順
 
-### GPTコメントありの場合Secrets Manager に APIキーを保存
+### GPTコメントありの場合Secrets Manager に chatGPTのAPIキーを保存
 
 ```bash
 aws secretsmanager create-secret \
