@@ -34,9 +34,13 @@
 - ネットワーク（VPC Flow Logs）
 - Security Group（0.0.0.0/0: 22/3389 + IPv6）、Security Group（ワイドオープン/IPv6含む）
 
-## サンプル（一部）です。
+## サンプル（一部）
 
 こんな感じ↓でリスクについてのコメントがつきます
+
+GPTに読ませないモードも可能です
+
+なお事前にマスキングしているためGPT（OpenAI API）に機密情報は渡しません
 
 <img width="809" height="522" alt="スクリーンショット 2025-09-16 0 06 13" src="https://github.com/user-attachments/assets/aeebd42b-ec67-4a29-8886-e8294be472c7" />
 <img width="788" height="719" alt="スクリーンショット 2025-09-16 0 06 52" src="https://github.com/user-attachments/assets/33e6dae3-b8a3-4bcf-953d-3073719032e9" />
