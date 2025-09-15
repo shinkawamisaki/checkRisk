@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.md
+.json
+
+# 環境ファイル
+.env
+.env.*
+
+# アーカイブ等
+*.zip
+*.tar
+*.tar.gz
