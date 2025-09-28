@@ -1,22 +1,40 @@
 #!/bin/bash
 # checkRisk.sh — リスク要約レポート
-# LICENSE: Non-Commercial Use Only / 商用利用禁止ライセンス
-# 本スクリプト（checkRisk.sh）は、以下の条件で利用可能です：
-#
-# OK: 学習・研究・社内利用・個人プロジェクトでの使用、改変、再配布は自由です
-# NG: 本ツールを用いた有償サービス提供、診断代行、成果物納品などの **商用利用は禁止** します
-# OK: 改変後の再配布も可能ですが、同じライセンスを継承してください（CC BY-NC-SA 準拠）
-# OK: クレジット表示（著作：Shinkawa）を削除しないでください
+# SPDX-License-Identifier: LicenseRef-Shinkawa-NC-1.1
+# Shinkawa Non-Commercial License v1.1 (with Commercial Service Provider Exception)
+# 最終更新: 2025-09-28
+# 著作権表示: © 2025 Shinkawa. All rights reserved.
 # 
-# This software is provided under a **Non-Commercial Use License**:
-# OK: You are free to use, modify, and distribute this tool for educational, personal, or internal use
-# NG: You may **not** use this tool, modified or unmodified, for any commercial purposes, including:
-# - Selling it as a product or service
-# - Using it to perform paid audits, consulting, or deliverables
-# - Rebranding and reselling to customers
-#
-# Attribution is required: © 2025 Shinkawa. All rights reserved.
-#
+# 【適用範囲 / Scope】
+# 本ライセンスは、このリポジトリの checkR.sh（および付随ドキュメント）に適用されます。
+# 
+# 日本語条文
+# 1. 定義
+#   「非商用」とは、対価（直接・間接を問わず）を得ることを目的としない利用。
+# 2. 許諾（非商用）
+#   非商用に限り、使用・複製・改変・再配布（本ライセンス全文と帰属表示を保持、同一条件）を無償で許可。
+# 3. 禁止（商用）
+#   有償のコンサル・監査・導入/設定/保守・受託/納品での利用、有償製品への組込み、リブランディング転売、サブライセンスを禁止。
+# 4. 例外（商用サービス提供者例外）
+#   上記にかかわらず、**著作権者 Shinkawa（および著作権者が明示的に許諾した者）**は、
+#   本ソフトウェアを用いた**有償の導入・設定・カスタマイズ・保守・マネージド運用**を第三者へ提供できます。
+#   この例外は第三者への**サブライセンス権・商用再配布権**を与えるものではありません。
+# 5. 商用ライセンス
+#   商用利用が必要な場合は別途、著作権者と商用ライセンス契約を締結してください。
+# 6. 帰属・通知
+#   「© 2025 Shinkawa. All rights reserved. Licensed under Shinkawa Non-Commercial License v1.1.」を保持。
+# 7. 免責
+#   本ソフトウェアは「現状のまま」。いかなる保証も責任も負いません。
+# 8. 終了
+#   条項違反で自動終了。終了後は使用を停止。
+
+# English (for convenience)
+# 1. Grant (Non-commercial): Use/copy/modify/redistribute for non-commercial purposes only, keeping this license and attribution under the same terms.
+# 2. Prohibited Uses: Any commercial use incl. paid consulting/audits/deployment/customization/support/managed services, inclusion in paid products, rebranding/reselling, sublicensing.
+# 3. Commercial Service Provider Exception: **Licensor (Shinkawa) and parties explicitly authorized by the Licensor** may provide paid services using the Software. No sublicense or commercial redistribution rights to third parties.
+# 4. Commercial License: Contact the Licensor for a separate commercial license.
+# 5. Attribution/Notice: Keep “© 2025 Shinkawa. All rights reserved. Licensed under Shinkawa Non-Commercial License v1.1.”
+# 6. Disclaimer & Termination: AS IS; breach terminates the license.
 
 set -euo pipefail
 IFS=$'\n\t'
