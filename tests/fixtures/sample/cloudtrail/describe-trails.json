@@ -1,0 +1,29 @@
+{
+  "trailList": [
+    {
+      "Name": "trail-main",
+      "S3BucketName": "logs-bucket",
+      "IncludeGlobalServiceEvents": true,
+      "IsMultiRegionTrail": true,
+      "HomeRegion": "ap-northeast-1",
+      "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:111122223333:trail/trail-main",
+      "LogFileValidationEnabled": true,
+      "CloudWatchLogsLogGroupArn": "arn:aws:logs:ap-northeast-1:111122223333:log-group:/aws/cloudtrail/main:*",
+      "HasCustomEventSelectors": true,
+      "HasInsightSelectors": false,
+      "IsOrganizationTrail": false
+    },
+    {
+      "Name": "org-trail-shadow",
+      "S3BucketName": "org-logs-bucket-elsewhere",
+      "IncludeGlobalServiceEvents": true,
+      "IsMultiRegionTrail": true,
+      "HomeRegion": "us-east-1",
+      "TrailARN": "arn:aws:cloudtrail:us-east-1:111122223333:trail/org-trail-shadow",
+      "LogFileValidationEnabled": true,
+      "HasCustomEventSelectors": false,
+      "HasInsightSelectors": false,
+      "IsOrganizationTrail": true
+    }
+  ]
+}

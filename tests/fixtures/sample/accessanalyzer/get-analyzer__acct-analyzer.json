@@ -1,0 +1,7 @@
+{
+  "analyzer": {
+    "name": "acct-analyzer",
+    "status": "ACTIVE",
+    "type": "ACCOUNT"
+  }
+}

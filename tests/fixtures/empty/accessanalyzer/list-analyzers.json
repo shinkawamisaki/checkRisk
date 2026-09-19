@@ -1,0 +1,8 @@
+{
+  "analyzers": [
+    {
+      "name": "acct-analyzer",
+      "status": "ACTIVE"
+    }
+  ]
+}

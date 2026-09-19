@@ -1,0 +1,50 @@
+{
+  "SecurityGroups": [
+    {
+      "GroupId": "sg-ssh",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 22,
+          "ToPort": 22,
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": []
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-all6",
+      "IpPermissions": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [],
+          "Ipv6Ranges": [
+            {
+              "CidrIpv6": "::/0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GroupId": "sg-ok",
+      "IpPermissions": [
+        {
+          "IpProtocol": "tcp",
+          "FromPort": 443,
+          "ToPort": 443,
+          "IpRanges": [
+            {
+              "CidrIp": "10.0.0.0/8"
+            }
+          ],
+          "Ipv6Ranges": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "logGroups": [
+    {
+      "logGroupName": "/aws/lambda/notify",
+      "retentionInDays": 365,
+      "kmsKeyId": "arn:aws:kms:ap-northeast-1:111122223333:key/11111111-1111-1111-1111-111111111111"
+    },
+    {
+      "logGroupName": "/aws/cloudtrail/main",
+      "retentionInDays": 90
+    },
+    {
+      "logGroupName": "/app/api"
+    }
+  ]
+}

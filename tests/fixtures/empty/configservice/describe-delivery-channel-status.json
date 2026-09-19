@@ -1,0 +1,10 @@
+{
+  "DeliveryChannelsStatus": [
+    {
+      "name": "default",
+      "configHistoryDeliveryInfo": {
+        "lastStatus": "SUCCESS"
+      }
+    }
+  ]
+}

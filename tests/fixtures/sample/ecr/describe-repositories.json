@@ -1,0 +1,14 @@
+{
+  "repositories": [
+    {
+      "repositoryName": "app",
+      "imageTagMutability": "MUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": false
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "AES256"
+      }
+    }
+  ]
+}

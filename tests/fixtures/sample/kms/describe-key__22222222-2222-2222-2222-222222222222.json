@@ -1,0 +1,9 @@
+{
+  "KeyMetadata": {
+    "KeyId": "22222222-2222-2222-2222-222222222222",
+    "KeySpec": "SYMMETRIC_DEFAULT",
+    "KeyManager": "AWS",
+    "Enabled": true,
+    "KeyState": "Enabled"
+  }
+}

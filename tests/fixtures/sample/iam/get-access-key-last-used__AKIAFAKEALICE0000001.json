@@ -1,0 +1,8 @@
+{
+  "UserName": "alice",
+  "AccessKeyLastUsed": {
+    "LastUsedDate": "2026-09-10T08:00:00+00:00",
+    "ServiceName": "s3",
+    "Region": "ap-northeast-1"
+  }
+}

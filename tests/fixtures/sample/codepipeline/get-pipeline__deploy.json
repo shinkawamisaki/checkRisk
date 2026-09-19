@@ -1,0 +1,9 @@
+{
+  "pipeline": {
+    "name": "deploy",
+    "artifactStore": {
+      "type": "S3",
+      "location": "deploy-artifacts"
+    }
+  }
+}

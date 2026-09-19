@@ -1,0 +1,14 @@
+{
+  "Owner": {
+    "ID": "owner"
+  },
+  "Grants": [
+    {
+      "Grantee": {
+        "Type": "CanonicalUser",
+        "ID": "owner"
+      },
+      "Permission": "FULL_CONTROL"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "Policy": "{\"Version\": \"2012-10-17\", \"Statement\": [{\"Sid\": \"DenyInsecure\", \"Effect\": \"Deny\", \"Principal\": \"*\", \"Action\": \"s3:*\", \"Resource\": [\"arn:aws:s3:::logs-bucket\", \"arn:aws:s3:::logs-bucket/*\"], \"Condition\": {\"Bool\": {\"aws:SecureTransport\": \"false\"}}}]}"
+}

@@ -1,0 +1,8 @@
+{
+  "pipelines": [
+    {
+      "name": "deploy",
+      "version": 1
+    }
+  ]
+}

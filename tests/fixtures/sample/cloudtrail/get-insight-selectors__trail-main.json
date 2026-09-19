@@ -1,0 +1,4 @@
+{
+  "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:111122223333:trail/trail-main",
+  "InsightSelectors": []
+}

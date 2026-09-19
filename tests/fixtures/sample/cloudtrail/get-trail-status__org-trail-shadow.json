@@ -1,0 +1,3 @@
+{
+  "__error__": "An error occurred (TrailNotFoundException) when calling the GetTrail operation: Unknown trail: org-trail-shadow for the user: 111122223333"
+}

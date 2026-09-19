@@ -1,0 +1,4 @@
+#!/bin/bash
+# 偽の aws コマンド。tests/run.sh が PATH の先頭に置く。
+# 実体は fake_aws.py（jmespath が必要）。FAKE_AWS_PYTHON で使う python を指定できる。
+exec "${FAKE_AWS_PYTHON:-python3}" "$(dirname "$0")/fake_aws.py" "$@"

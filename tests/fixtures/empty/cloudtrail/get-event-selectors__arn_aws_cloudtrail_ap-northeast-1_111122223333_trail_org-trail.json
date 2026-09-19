@@ -1,0 +1,9 @@
+{
+  "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:111122223333:trail/org-trail",
+  "AdvancedEventSelectors": [
+    {
+      "Name": "all",
+      "FieldSelectors": []
+    }
+  ]
+}

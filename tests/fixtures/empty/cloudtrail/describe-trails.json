@@ -1,0 +1,11 @@
+{
+  "trailList": [
+    {
+      "Name": "org-trail",
+      "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:111122223333:trail/org-trail",
+      "IsMultiRegionTrail": true,
+      "LogFileValidationEnabled": true,
+      "HomeRegion": "ap-northeast-1"
+    }
+  ]
+}

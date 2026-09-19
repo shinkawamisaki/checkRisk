@@ -1,0 +1,9 @@
+{
+  "ConfigurationRecordersStatus": [
+    {
+      "name": "default",
+      "recording": true,
+      "lastStatus": "SUCCESS"
+    }
+  ]
+}

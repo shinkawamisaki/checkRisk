@@ -1,0 +1,6 @@
+{
+  "projects": [
+    "build-privileged",
+    "build-normal"
+  ]
+}

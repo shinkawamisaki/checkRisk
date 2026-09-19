@@ -16,3 +16,6 @@
 *.tar.gz
 WARP.md
 /output
+
+# Python（テスト実行時の生成物）
+__pycache__/

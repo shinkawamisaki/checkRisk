@@ -1,0 +1,3 @@
+{
+  "__error__": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+}

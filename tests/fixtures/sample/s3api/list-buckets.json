@@ -1,0 +1,19 @@
+{
+  "Buckets": [
+    {
+      "Name": "public-bucket",
+      "CreationDate": "2024-01-15T10:00:00+00:00"
+    },
+    {
+      "Name": "logs-bucket",
+      "CreationDate": "2024-01-15T10:00:00+00:00"
+    },
+    {
+      "Name": "plain-bucket",
+      "CreationDate": "2024-01-15T10:00:00+00:00"
+    }
+  ],
+  "Owner": {
+    "ID": "owner"
+  }
+}

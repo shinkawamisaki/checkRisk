@@ -1,0 +1,16 @@
+{
+  "Users": [
+    {
+      "UserName": "alice",
+      "Arn": "arn:aws:iam::111122223333:user/alice"
+    },
+    {
+      "UserName": "bob",
+      "Arn": "arn:aws:iam::111122223333:user/bob"
+    },
+    {
+      "UserName": "svc-batch",
+      "Arn": "arn:aws:iam::111122223333:user/svc-batch"
+    }
+  ]
+}

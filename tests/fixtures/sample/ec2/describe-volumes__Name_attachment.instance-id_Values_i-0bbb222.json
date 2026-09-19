@@ -1,0 +1,8 @@
+{
+  "Volumes": [
+    {
+      "VolumeId": "vol-0b1",
+      "Encrypted": true
+    }
+  ]
+}

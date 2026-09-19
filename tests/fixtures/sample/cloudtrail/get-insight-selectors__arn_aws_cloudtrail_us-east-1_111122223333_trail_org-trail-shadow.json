@@ -1,0 +1,3 @@
+{
+  "__error__": "An error occurred (InsightNotEnabledException) when calling the GetInsightSelectors operation: Insights are not enabled"
+}

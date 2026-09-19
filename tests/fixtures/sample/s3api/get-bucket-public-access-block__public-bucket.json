@@ -1,0 +1,3 @@
+{
+  "__error__": "An error occurred (NoSuchPublicAccessBlockConfiguration) when calling the GetBucketPublicAccessBlock operation: The public access block configuration was not found"
+}

@@ -1,0 +1,8 @@
+{
+  "DBSnapshots": [
+    {
+      "DBSnapshotIdentifier": "app-db-snap-1",
+      "DBInstanceIdentifier": "app-db"
+    }
+  ]
+}

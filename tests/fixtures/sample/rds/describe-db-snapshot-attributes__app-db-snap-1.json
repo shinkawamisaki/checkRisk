@@ -1,0 +1,13 @@
+{
+  "DBSnapshotAttributesResult": {
+    "DBSnapshotIdentifier": "app-db-snap-1",
+    "DBSnapshotAttributes": [
+      {
+        "AttributeName": "restore",
+        "AttributeValues": [
+          "all"
+        ]
+      }
+    ]
+  }
+}

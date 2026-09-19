@@ -1,0 +1,22 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-0bbb222",
+          "MetadataOptions": {
+            "HttpTokens": "required"
+          },
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "VolumeId": "vol-0b1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

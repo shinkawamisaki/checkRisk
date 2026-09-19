@@ -1,0 +1,12 @@
+{
+  "Volumes": [
+    {
+      "VolumeId": "vol-0a1",
+      "Encrypted": true
+    },
+    {
+      "VolumeId": "vol-0a2",
+      "Encrypted": false
+    }
+  ]
+}

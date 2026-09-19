@@ -1,0 +1,12 @@
+{
+  "DBInstances": [
+    {
+      "DBInstanceIdentifier": "app-db",
+      "StorageEncrypted": false,
+      "PubliclyAccessible": true,
+      "MultiAZ": false,
+      "BackupRetentionPeriod": 1,
+      "AutoMinorVersionUpgrade": false
+    }
+  ]
+}

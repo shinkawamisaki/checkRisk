@@ -1,0 +1,8 @@
+{
+  "MFADevices": [
+    {
+      "UserName": "alice",
+      "SerialNumber": "arn:aws:iam::111122223333:mfa/alice"
+    }
+  ]
+}

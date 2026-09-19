@@ -1,0 +1,47 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-0aaa111",
+          "PublicIpAddress": "203.0.113.10",
+          "MetadataOptions": {
+            "HttpTokens": "optional"
+          },
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "VolumeId": "vol-0a1"
+              }
+            },
+            {
+              "DeviceName": "/dev/xvdb",
+              "Ebs": {
+                "VolumeId": "vol-0a2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Instances": [
+        {
+          "InstanceId": "i-0bbb222",
+          "MetadataOptions": {
+            "HttpTokens": "required"
+          },
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "VolumeId": "vol-0b1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "AvailabilityZones": [
+    {
+      "ZoneName": "ap-northeast-1a",
+      "State": "available"
+    }
+  ]
+}

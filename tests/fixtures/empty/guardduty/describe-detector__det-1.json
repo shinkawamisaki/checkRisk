@@ -1,0 +1,9 @@
+{
+  "Status": "ENABLED",
+  "Features": [
+    {
+      "Name": "S3_DATA_EVENTS",
+      "Status": "ENABLED"
+    }
+  ]
+}

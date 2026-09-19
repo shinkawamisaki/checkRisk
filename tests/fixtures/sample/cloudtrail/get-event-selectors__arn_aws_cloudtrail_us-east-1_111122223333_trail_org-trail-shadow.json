@@ -1,0 +1,10 @@
+{
+  "TrailARN": "arn:aws:cloudtrail:us-east-1:111122223333:trail/org-trail-shadow",
+  "EventSelectors": [
+    {
+      "ReadWriteType": "All",
+      "IncludeManagementEvents": true,
+      "DataResources": []
+    }
+  ]
+}

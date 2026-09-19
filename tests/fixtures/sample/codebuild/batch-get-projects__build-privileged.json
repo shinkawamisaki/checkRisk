@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "name": "build-privileged",
+      "environment": {
+        "privilegedMode": true
+      }
+    }
+  ],
+  "projectsNotFound": []
+}

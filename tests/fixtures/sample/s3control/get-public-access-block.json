@@ -1,0 +1,8 @@
+{
+  "PublicAccessBlockConfiguration": {
+    "BlockPublicAcls": true,
+    "IgnorePublicAcls": true,
+    "BlockPublicPolicy": false,
+    "RestrictPublicBuckets": true
+  }
+}

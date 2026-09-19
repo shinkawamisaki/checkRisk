@@ -1,0 +1,3 @@
+{
+  "__error__": "An error occurred (ObjectLockConfigurationNotFoundError) when calling the GetObjectLockConfiguration operation: Object Lock configuration does not exist for this bucket"
+}

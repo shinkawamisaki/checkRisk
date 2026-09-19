@@ -1,0 +1,13 @@
+{
+  "Status": "ENABLED",
+  "Features": [
+    {
+      "Name": "S3_DATA_EVENTS",
+      "Status": "ENABLED"
+    },
+    {
+      "Name": "EKS_AUDIT_LOGS",
+      "Status": "DISABLED"
+    }
+  ]
+}

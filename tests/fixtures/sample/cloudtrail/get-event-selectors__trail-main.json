@@ -1,0 +1,17 @@
+{
+  "TrailARN": "arn:aws:cloudtrail:ap-northeast-1:111122223333:trail/trail-main",
+  "EventSelectors": [
+    {
+      "ReadWriteType": "All",
+      "IncludeManagementEvents": true,
+      "DataResources": [
+        {
+          "Type": "AWS::S3::Object",
+          "Values": [
+            "arn:aws:s3:::logs-bucket/"
+          ]
+        }
+      ]
+    }
+  ]
+}
